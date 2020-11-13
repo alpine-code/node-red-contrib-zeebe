@@ -1,7 +1,7 @@
 <script type="text/javascript">
     RED.nodes.registerType('workflow-instance', {
         category: 'zeebe',
-        color: '#C0DEED',
+        color: '#FFF',
         defaults: {
             name: { value: '' },
             zeebe: { required: true, type: 'zeebe' },
@@ -10,9 +10,9 @@
         outputs: 1,
         icon: 'zeebe.png',
         label: function() {
-            return this.name || 'create wfi';
+            return this.name || 'create instance';
         },
-        paletteLabel: 'create wfi',
+        paletteLabel: 'create instance',
     });
 </script>
 

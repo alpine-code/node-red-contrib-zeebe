@@ -1,7 +1,7 @@
 <script type="text/javascript">
     RED.nodes.registerType('publish-start-message', {
         category: 'zeebe',
-        color: '#C0DEED',
+        color: '#FFF',
         defaults: {
             name: { value: "" },
             zeebe: { required: true, type: "zeebe" }
@@ -10,9 +10,9 @@
         outputs: 0,
         icon: "zeebe.png",
         label: function () {
-            return this.name || "pub start msg";
+            return this.name || "publish start message";
         },
-        paletteLabel: 'pub start msg'
+        paletteLabel: 'publish start message'
     });
 </script>
 

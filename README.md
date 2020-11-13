@@ -19,7 +19,7 @@ Please note: These nodes only work in combination. Make sure, the complete objec
 
 See [example flow](https://flows.nodered.org/flow/71e06f6a3e3bcbc7721cd970215b5180).
 
-### pub msg
+### publish message
 
 ![publish-message node](docs/pub-msg.png)
 
@@ -29,7 +29,7 @@ The message must contain a name and a correlation key. Optionally you can pass i
 
 See [example flow](https://flows.nodered.org/flow/d409cb6dfdd283a01724dc85cd65387e).
 
-### pub start msg
+### publish start message
 
 ![publish-start-message node](docs/pub-start-msg.png)
 
@@ -49,7 +49,7 @@ You can use the 'file in' node from Node-RED to read a bpmn file from disk, or g
 
 See [example flow](https://flows.nodered.org/flow/1fdad35c25b7269eea64b76d3236c3a6).
 
-### create wfi
+### create instance
 
 ![workflow-instance node](docs/create-wfi.png)
 
